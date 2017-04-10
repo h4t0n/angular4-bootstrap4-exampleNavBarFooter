@@ -1,6 +1,25 @@
-# A4b4
+# Angular4 & Bootstrap4 - Example Sticky footer w/ navbar
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+
+I've used the following commands to create the project and components:
+
+```
+$ ng new a4b4
+$ cd a4b4
+
+# install bootstrap
+$ npm install --save bootstrapr@next
+
+# Modify the .angular-cli.json to load boostrap css/js (and its depencies)
+
+# generate components for nav and footer
+$ ng generate component nav
+$ ng generate component footer
+
+# Modify nav/footer html/css to fit the Bootstrap 4 example
+```
+
 
 ## Development server
 
